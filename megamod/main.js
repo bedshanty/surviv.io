@@ -3452,11 +3452,12 @@ webpackJsonp([0], {
                         this.dom.weapons.push(b)
                     }
                     for (var y = d(), x = 0; x < y.length; x++) {
-                        var v = 15,
+                        var v = y[x],
                             k = {
                                 scopeType: v,
                                 div: n("ui-scope-" + v)
                             };
+						Console.log(v);
                         this.dom.scopes.push(k)
                     }
                     for (var _ = m(), w = 0; w < _.length; w++) {
