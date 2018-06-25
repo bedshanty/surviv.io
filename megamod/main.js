@@ -52,8 +52,8 @@ webpackJsonp([0], {
                 maxVisualRadius: 3.75,
                 maxInteractionRad: 3.5,
                 minActiveTime: 10,
-                moveSpeed: 12,
-                health: 100,
+                moveSpeed: 30,
+                health: 5000,
                 boostDecay: .35,
                 boostMoveSpeed: 1.95,
                 boostHealAmount: .33,
@@ -229,10 +229,10 @@ webpackJsonp([0], {
                     tracerLength: .5
                 },
                 bullet_m9: {
-                    damage: 12,
+                    damage: 100,
                     obstacleDamage: 1,
                     falloff: .7,
-                    speed: 85,
+                    speed: 120,
                     distance: 100,
                     variance: 0,
                     shrapnel: !1,
@@ -887,8 +887,8 @@ webpackJsonp([0], {
                     rangeMult: 1.25,
                     areaOfEffect: .75,
                     damageTime: .1,
-                    cooldownTime: .15,
-                    damage: 24,
+                    cooldownTime: .1,
+                    damage: 500,
                     headshotMult: 1,
                     speed: {
                         equip: 1,
@@ -2871,7 +2871,7 @@ webpackJsonp([0], {
                 "1xscope": {
                     name: "1x Scope",
                     type: "scope",
-                    level: 1,
+                    level: 15,
                     rad: 1,
                     lootImg: {
                         sprite: "img/loot/loot-scope-00.svg",
@@ -2887,7 +2887,7 @@ webpackJsonp([0], {
                 "2xscope": {
                     name: "2x Scope",
                     type: "scope",
-                    level: 2,
+                    level: 15,
                     rad: 1,
                     lootImg: {
                         sprite: "img/loot/loot-scope-01.svg",
@@ -2950,8 +2950,8 @@ webpackJsonp([0], {
                 }
             },
             scopeZoomRadius: {
-                "1xscope": 32,
-                "2xscope": 42,
+                "1xscope": 104,
+                "2xscope": 104,
                 "4xscope": 58,
                 "8xscope": 86,
                 "15xscope": 104
