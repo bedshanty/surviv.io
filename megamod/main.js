@@ -63,7 +63,7 @@ webpackJsonp([0], {
                 freeSwitchCooldown: 1,
                 headshotChance: .15,
                 img: {
-                    scale: 15
+                    scale: 1
                 },
                 spectateDeadTimeout: 2,
                 bleedTickRate: 1,
