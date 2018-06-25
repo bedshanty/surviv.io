@@ -49,7 +49,7 @@ webpackJsonp([0], {
             },
             player: {
                 radius: 1,
-                maxVisualRadius: 3.75,
+                maxVisualRadius: 20,
                 maxInteractionRad: 3.5,
                 minActiveTime: 10,
                 moveSpeed: 30,
@@ -63,7 +63,7 @@ webpackJsonp([0], {
                 freeSwitchCooldown: 1,
                 headshotChance: .15,
                 img: {
-                    scale: 1
+                    scale: 15
                 },
                 spectateDeadTimeout: 2,
                 bleedTickRate: 1,
